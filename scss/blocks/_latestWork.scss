@@ -1,0 +1,30 @@
+.bem-latestWork{
+  padding: 50px 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  &__project{
+    &__img {
+      padding: 5px;
+      outline: 1px solid #e2e2e2;
+      margin-bottom: 21px;
+    }
+    &__title{
+      color: $projectTitleColor;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 14px;
+    }
+    &__text{
+      font-size: 13px;
+      color: $projectTextColor;
+      line-height: 20.8px;
+      margin-bottom: 14px;
+    }
+    &__viewDetails{
+      float: right;
+      text-decoration: none;
+      color: $footerReadMoreColor;
+    }
+  }
+}

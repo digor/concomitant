@@ -1,0 +1,82 @@
+.bem-footer{
+  padding: 40px 30px;
+  background-color: $footerBackgroundColor;
+  color: $footerTextColor;
+}
+.bem-footerGrid{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  &__itemTitle{
+    color: $footerTitleColor;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  &__itemContact{
+    font-size: 13px;
+  }
+  &__itemContactText{
+    line-height: 20.8px;
+    margin-bottom: 30px;
+  }
+  &__itemContactTel,
+  &__itemContactFax,
+  &__itemContactEmail{
+    font-size: 12px;
+    line-height: 20.8px;
+  }
+  &__nav{
+    display: flex;
+    flex-direction: column;
+    &__link{
+      font-size: 12px;
+      display: block;
+      border-bottom: 1px solid #484848;
+      padding-bottom: 9px;
+      padding-top: 9px;
+      color: $footerTitleColor;
+      text-decoration: none;
+    }
+  }
+  &__article{
+    color: $footerTextColor;
+    &__title{
+      font-size: 13px;
+      margin-bottom: 7px;
+    }
+    &__author{
+      font-size: 11px;
+      margin-bottom: 11px;
+    }
+    &__text{
+      font-size: 12px;
+      margin-bottom: 7px;
+      line-height: 19.2px;
+    }
+    &__readMore{
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 14.4px;
+      color: $footerReadMoreColor;
+      float: right;
+    }
+  }
+  &__formNewsLetter{
+    input{
+      font-size: 13px;
+      line-height: 31px;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 0px;
+      background-color: $formInputBackgroundColor;
+    }
+    input[type="submit"]{
+      color: $footerReadMoreColor;
+      padding-right: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}

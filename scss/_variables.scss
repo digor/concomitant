@@ -1,10 +1,24 @@
+@font-face {
+  src: url("../fonts/GeorgiaRegularFont.ttf");
+  font-family: GeorgiaRegular;
+}
 // Colors off sitie
 $bodyBackgroundColor: #1f1f1f;
 $wrapperBackgroundColor: #fff;
 $copyrightBackgroundColor: #2e2e2e;
+$footerBackgroundColor: #3b3b3b;
+$formInputBackgroundColor: #1f1f1f;
+$projectTitleColor: #444;
+$projectTextColor: #878787;
+$servicesTextColor: #888;
 
 // Text color
 $copyrightTextColor: #737373;
+$footerTitleColor: #666;
+$footerTextColor: #999;
+$footerReadMoreColor: #81b300;
+
+$fontFamily: Georgia, Arial, san-serif;
 
 // width off site
 $mainWidth: 960px;

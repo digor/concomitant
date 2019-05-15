@@ -1,5 +1,9 @@
 @import "variables";
+@import "blocks/_fa-icons";
 
+@import "blocks/_services";
+@import "blocks/_latestWork";
+@import "blocks/_footer";
 @import "blocks/_copyright";
 
 *{
@@ -8,9 +12,11 @@
 }
 body{
   background-color: $bodyBackgroundColor;
+  font-family: $fontFamily;
 }
 
 .wrapper{
-  margin: 0 auto;
+  margin: 30px auto;
+  background-color: $wrapperBackgroundColor;
   width: $mainWidth;
 }
