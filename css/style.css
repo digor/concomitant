@@ -1,1 +1,207 @@
-.bem-copyright{padding:25px 30px;background-color:#2e2e2e;color:#737373;display:flex;justify-content:space-between}*{margin:0;padding:0}body{background-color:#1f1f1f}.wrapper{margin:0 auto;width:960px}
+@font-face {
+  src: url("../fonts/GeorgiaRegularFont.ttf");
+  font-family: GeorgiaRegular;
+}
+
+.fa {
+  font-size: 64px;
+  display: block;
+  text-align: center;
+}
+
+.fa-leaf {
+  color: #7da3b7;
+}
+
+.fa-cogs {
+  color: #3d5f12;
+}
+
+.fa-globe {
+  color: #cf9d41;
+}
+
+.fa-users {
+  color: #c45f4b;
+}
+
+.bem-services {
+  padding: 50px 30px 0;
+}
+
+.bem-servicesGrid {
+  padding-bottom: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #2e2e2e;
+}
+
+.bem-servicesItem__title {
+  font-size: 18px;
+  color: #81b300;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 17px;
+  margin-top: 20px;
+}
+
+.bem-servicesItem__text {
+  color: #888;
+  font-size: 13px;
+  line-height: 20.8px;
+}
+
+.bem-servicesItem__text:first-letter {
+  margin-left: 17px;
+}
+
+.bem-latestWork {
+  padding: 50px 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.bem-latestWork__project__img {
+  padding: 5px;
+  outline: 1px solid #e2e2e2;
+  margin-bottom: 21px;
+}
+
+.bem-latestWork__project__title {
+  color: #444;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.bem-latestWork__project__text {
+  font-size: 13px;
+  color: #878787;
+  line-height: 20.8px;
+  margin-bottom: 14px;
+}
+
+.bem-latestWork__project__viewDetails {
+  float: right;
+  text-decoration: none;
+  color: #81b300;
+}
+
+.bem-footer {
+  padding: 40px 30px;
+  background-color: #3b3b3b;
+  color: #999;
+}
+
+.bem-footerGrid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.bem-footerGrid__itemTitle {
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.bem-footerGrid__itemContact {
+  font-size: 13px;
+}
+
+.bem-footerGrid__itemContactText {
+  line-height: 20.8px;
+  margin-bottom: 30px;
+}
+
+.bem-footerGrid__itemContactTel, .bem-footerGrid__itemContactFax, .bem-footerGrid__itemContactEmail {
+  font-size: 12px;
+  line-height: 20.8px;
+}
+
+.bem-footerGrid__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.bem-footerGrid__nav__link {
+  font-size: 12px;
+  display: block;
+  border-bottom: 1px solid #484848;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  color: #666;
+  text-decoration: none;
+}
+
+.bem-footerGrid__article {
+  color: #999;
+}
+
+.bem-footerGrid__article__title {
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.bem-footerGrid__article__author {
+  font-size: 11px;
+  margin-bottom: 11px;
+}
+
+.bem-footerGrid__article__text {
+  font-size: 12px;
+  margin-bottom: 7px;
+  line-height: 19.2px;
+}
+
+.bem-footerGrid__article__readMore {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #81b300;
+  float: right;
+}
+
+.bem-footerGrid__formNewsLetter input {
+  font-size: 13px;
+  line-height: 31px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #1f1f1f;
+}
+
+.bem-footerGrid__formNewsLetter input[type="submit"] {
+  color: #81b300;
+  padding-right: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bem-copyright {
+  padding: 25px 30px;
+  background-color: #2e2e2e;
+  color: #737373;
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f1f1f;
+  font-family: Georgia, Arial, san-serif;
+}
+
+.wrapper {
+  margin: 30px auto;
+  background-color: #fff;
+  width: 960px;
+}
