@@ -1,0 +1,23 @@
+.bem-mainMenu{
+  display: flex;
+  justify-content: space-around;
+  &__link{
+    font-size: 13px;
+    display: block;
+    text-decoration: none;
+    color: $wrapperBackgroundColor;
+    transition-duration: $transitionTime;
+    &:hover{
+      color: #000;
+    }
+    &:not(:last-child){
+      padding-right: 20px;
+    }
+  }
+}
+
+@media (max-width: $mdScreen) {
+  .bem-mainMenu{
+    display: none;
+  }
+}

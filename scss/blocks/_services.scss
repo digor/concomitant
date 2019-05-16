@@ -27,3 +27,13 @@
     }
   }
 }
+@media (max-width: 987px){
+  .bem-servicesGrid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: $smScreen){
+  .bem-servicesGrid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -60,10 +60,16 @@
       line-height: 14.4px;
       color: $footerReadMoreColor;
       float: right;
+      transition-duration: $transitionTime;
+      &:hover{
+        text-shadow: 0px 0px 4px rgba(97, 128, 0, 0.8);
+        color: #81b300;
+      }
     }
   }
   &__formNewsLetter{
     input{
+      width: 100%;
       font-size: 13px;
       line-height: 31px;
       padding-left: 10px;
@@ -73,10 +79,21 @@
       background-color: $formInputBackgroundColor;
     }
     input[type="submit"]{
+      width: 45%;
       color: $footerReadMoreColor;
       padding-right: 13px;
       font-weight: bold;
       text-transform: uppercase;
     }
+  }
+}
+@media (max-width: $mdScreen){
+  .bem-footerGrid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: $smScreen){
+  .bem-footerGrid{
+    grid-template-columns: repeat(1, 1fr);
   }
 }

@@ -4,4 +4,15 @@
   color: $copyrightTextColor;
   display: flex;
   justify-content: space-between;
+  font-size: 12px;
+}
+
+@media (max-width: $smScreen){
+  .bem-copyright{
+    flex-wrap: wrap;
+    justify-content: center;
+    &__left{
+      margin-bottom: 10px;
+    }
+  }
 }

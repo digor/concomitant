@@ -1,12 +1,24 @@
 @import "variables";
 @import "blocks/_fa-icons";
 
+@import "blocks/_header";
+@import "blocks/_logo";
+@import "blocks/_social";
+@import "blocks/_navUsers";
+@import "blocks/_mainMenu";
+@import "blocks/_searchForm";
+@import "blocks/_slider";
 @import "blocks/_services";
 @import "blocks/_latestWork";
 @import "blocks/_footer";
 @import "blocks/_copyright";
 
 *{
+  margin: 0;
+  padding: 0;
+}
+body,
+html{
   margin: 0;
   padding: 0;
 }
@@ -19,4 +31,20 @@ body{
   margin: 30px auto;
   background-color: $wrapperBackgroundColor;
   width: $mainWidth;
+}
+@media (max-width: $lgScreen) {
+  .wrapper{
+    width: 800px;
+  }
+}
+@media (max-width: $mdScreen) {
+  .wrapper{
+    margin: 0 auto;
+    width: 480px;
+  }
+}
+@media (max-width: $smScreen){
+  .wrapper{
+    width: 320px;
+  }
 }

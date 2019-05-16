@@ -1,0 +1,33 @@
+.bem-navUsers{
+  grid-area: navUsers;
+  display: flex;
+  justify-content: center;
+  margin: 50px 30px 37px auto;
+  &__spliter{
+    display: block;
+    width: 1px;
+    height: inherit;
+    background-color: $footerReadMoreColor;
+  }
+  &__link{
+    font-size: 12px;
+    line-height: 14.4px;
+    color: $footerReadMoreColor;
+    text-decoration: none;
+    transition-duration: .5s;
+    &:not(:first-child){
+      padding-left: $navUsersPadding;
+    }
+    &:not(:last-child){
+      padding-right: $navUsersPadding;
+    }
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+}
+@media (max-width: $esScreen){
+  .bem-navUsers{
+    margin: 0 0 20px;
+  }
+}

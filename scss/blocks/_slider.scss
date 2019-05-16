@@ -1,0 +1,64 @@
+.bem-slide {
+  background-color: $sliderBackgroundColor;
+  padding: 50px 30px;
+  &__slides {
+    &__items {
+      display: none;
+      &__img {
+        width: 98%;
+        background-color: $wrapperBackgroundColor;
+        padding: 9px;
+        border: 1px solid $slideBorderImgColor;
+      }
+    }
+    &__controls {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &__circle,
+      &__circleArrow{
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: $circleColor;
+        border: 1px solid $circleColor;
+        transition: background-color .6s ease;
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+        &:hover{
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+.active{
+  background-color: transparent;
+}
+.bigCircle{
+  width: 20px;
+  height: 20px;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media (max-width: $mdScreen){
+  .bem-slide{
+    &__slides{
+      &__items{
+        &__img{
+          /*width: 100%;*/
+        }
+      }
+    }
+  }
+}

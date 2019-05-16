@@ -15,3 +15,13 @@
 .fa-users{
   color: #c45f4b;
 }
+.fa-chevron-left,
+.fa-chevron-right{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  &:hover{
+    color: inherit;
+  }
+}

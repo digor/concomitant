@@ -2,6 +2,10 @@
   src: url("../fonts/GeorgiaRegularFont.ttf");
   font-family: GeorgiaRegular;
 }
+@font-face {
+  src: url("../fonts/Georgia.ttf");
+  font-family: Georgia;
+}
 // Colors off sitie
 $bodyBackgroundColor: #1f1f1f;
 $wrapperBackgroundColor: #fff;
@@ -11,6 +15,12 @@ $formInputBackgroundColor: #1f1f1f;
 $projectTitleColor: #444;
 $projectTextColor: #878787;
 $servicesTextColor: #888;
+$sliderBackgroundColor: #f2f2f2;
+$circleColor: #333;
+$slideBorderImgColor: #e6e6e6;
+
+$socialBorderBottomRadiaus: 20px;
+$navUsersPadding: 7px;
 
 // Text color
 $copyrightTextColor: #737373;
@@ -20,5 +30,11 @@ $footerReadMoreColor: #81b300;
 
 $fontFamily: Georgia, Arial, san-serif;
 
+$transitionTime: .5s;
+
 // width off site
 $mainWidth: 960px;
+$lgScreen: 960px;
+$mdScreen: 800px;
+$smScreen: 480px;
+$esScreen: 320px;
