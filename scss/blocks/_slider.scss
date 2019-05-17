@@ -53,10 +53,22 @@
 }
 @media (max-width: $mdScreen){
   .bem-slide{
+    padding: 20px 10px;
     &__slides{
       &__items{
         &__img{
-          /*width: 100%;*/
+          width: 96%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: $smScreen){
+  .bem-slide{
+    &__slides{
+      &__items{
+        &__img{
+          width: 92%;
         }
       }
     }

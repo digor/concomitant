@@ -68,8 +68,9 @@
     }
   }
   &__formNewsLetter{
+    width: 100%;
     input{
-      width: 100%;
+      width: 94%;
       font-size: 13px;
       line-height: 31px;
       padding-left: 10px;
@@ -88,6 +89,9 @@
   }
 }
 @media (max-width: $mdScreen){
+  .bem-footer{
+    padding: 20px 10px;
+  }
   .bem-footerGrid{
     grid-template-columns: repeat(2, 1fr);
   }

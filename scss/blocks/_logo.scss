@@ -16,10 +16,13 @@
     margin-bottom: 37px;
   }
 }
-@media (max-width: $esScreen) {
+@media (max-width: $mdScreen) {
   .bem-logo{
     margin: 0;
     padding-top: 15px;
     text-align: center;
+    &__slogan{
+      margin: 10px auto;
+    }
   }
 }

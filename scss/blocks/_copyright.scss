@@ -7,6 +7,12 @@
   font-size: 12px;
 }
 
+@media (max-width: $mdScreen){
+  .bem-copyright{
+    padding: 10px;
+  }
+}
+
 @media (max-width: $smScreen){
   .bem-copyright{
     flex-wrap: wrap;
